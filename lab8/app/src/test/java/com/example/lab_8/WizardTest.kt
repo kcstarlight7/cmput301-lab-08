@@ -1,6 +1,7 @@
 package com.example.lab_8
 
-import junit.framework.TestCase.assertEquals
+
+import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 
