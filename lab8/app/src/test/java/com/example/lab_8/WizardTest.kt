@@ -18,7 +18,6 @@ class WizardTest {
         val damageDealt = evilWizard.castSpell("Explosion")
 
         assertEquals(30, damageDealt) // spellPower of 10 * 3 = 30
-
         assertEquals(20, evilWizard.mana) // mana of 30 - 10 = 20
     }
 
@@ -28,7 +27,6 @@ class WizardTest {
         val damageDealt = evilWizard.castSpell("Explosion")
 
         assertEquals(0, damageDealt)
-
         assertEquals(5, evilWizard.mana) // mana still is 5
     }
 }
