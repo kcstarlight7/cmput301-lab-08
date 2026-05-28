@@ -20,5 +20,5 @@ jobs:
         run: chmod +x gradlew
         working-directory: ./lab8
       - name: Build and test with Gradle
-        run: ./gradlew build
+        run: ./gradlew build --configuration-cache
         working-directory: ./lab8
